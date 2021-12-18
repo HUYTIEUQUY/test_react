@@ -1,0 +1,261 @@
+.frame {
+    width: 80%;
+    height: 40rem;
+    margin: auto;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    margin-bottom: 10rem;
+
+    .title_frame {
+        height: 4rem;
+
+        p {
+            font-size: 1.5rem;
+        }
+    }
+
+    .content_frame {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        clear: both;
+        background-image: url(../image/bg_account.png);
+        background-size: cover;
+        // box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+        border: 0.5px solid #bdbdbd;
+        padding: 1.5rem;
+
+        #form2{
+            width: 50%;
+            margin-left: 1rem;
+        }
+
+        .info1 {
+            
+            width: 100%;
+           
+            
+
+        }
+
+        .row {
+            width: 100%;
+            height: 3rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            // border: 1px solid black;
+            margin-bottom: 1.5rem;
+            
+            b{
+                font-size: 1.1rem;
+                color: black;
+            }
+
+            p {
+                font-size: 1rem;
+                color: #2c2c2c;
+            }
+        }
+
+        .btn{
+            justify-content: flex-end;
+            input[type='submit']{
+                width: 30%;
+                height: 3rem;
+                font-size: 1.1rem;
+                padding: 0.1rem 1rem;
+                border-radius: 0.3rem;
+                background: #1A94FF;
+                color: white;
+                margin-bottom: 2rem;
+            }
+
+            input[type='submit']:hover{
+                opacity: 0.7;
+            }
+
+        }
+
+        .info2 {
+            height: 100%;
+            width: 50%;
+            border-right: 1px solid rgb(187, 187, 187);
+            display: block;
+            
+
+            .row2 {
+                width: 100%;
+                height: 40%;
+                // border: 1px solid black;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 1rem 0;
+
+                .img {
+                    width: 45%;
+                    height: 100%;
+                    border-radius: 50%;
+                    border: 1px solid rgb(174, 195, 255);
+                    align-items: center;
+                }
+
+               
+            }
+            .file{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 3rem;
+                input{
+                    display: none;
+                }
+                label{
+                    padding: 0.5rem 1.8rem;
+                    font-size: 0.8rem;
+                    border-radius: 5px;
+                    color: #1A94FF;
+                    border: 1px solid #1A94FF;
+                    background: #fff;
+                    i{
+                        color: #1A94FF;
+                    }
+                }
+                label:hover{
+                    background: #1A94FF;
+                    color: #fff;
+                    i{
+                        color:#fff;
+                    }
+                }
+                
+            }
+  
+        }
+
+
+        .col25 {
+            width: 25%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .link{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 9rem;
+            .img_social {
+                width: 1.6rem;
+                height: 1.6rem;
+                border-radius: 50%;
+                border: 1px solid rgb(243, 243, 243);
+                transition: 0.2s;
+            }
+            .img_social:hover{
+                width: 2rem;
+                height: 2rem;
+                box-shadow: 2px 2px 10px rgba(0, 183, 255, 0.5)
+            }
+        }
+
+        .col60{
+            width: 60%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            input[type="text"]{
+                border:none;
+                border-radius:0;
+                
+            }
+            input[type="number"]{
+                border:none;
+                border-radius:0;
+                border-bottom: 1px solid rgb(134, 134, 134)
+            }
+            input[type="number"]:hover{
+                border-bottom: 1px solid #1A94FF;
+            }
+        }
+        .col15{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 15%;
+            height: 100%;
+            margin-right: 1rem;
+            input[type="submit"]{
+                padding:0.4rem 1rem;
+                border: 1px solid #1A94FF;
+                border-radius: 5px;
+                text-decoration: none;
+                color: #1A94FF;
+                display: flex;
+                background:none;
+            }
+            input[type="submit"]:hover{
+                background:#1A94FF;
+                color: #fff;
+            }
+            
+        }
+
+        .col75 {
+            width: 75%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                margin-right: 2rem;
+            }
+
+            
+            .btn{
+                width: 100%;
+                height: 2rem;
+                border: 1px solid #1A94FF;
+                font-size: 1rem;
+                padding: 0.1rem 1rem;
+                border-radius: 0.2rem;
+                color:#1A94FF;
+                background-color:white;
+            }
+
+        }
+        .radio{
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 1rem;
+        }
+
+        input[type='text'],
+        input[type='date'],
+        input[type='number'] {
+            width: 80%;
+            height: 2.5rem;
+            border: 1px solid rgb(161, 161, 161);
+            font-size: 1rem;
+            padding: 0.1rem 1rem;
+            border-radius: 0.2rem;
+            outline: none;
+        }
+        input:hover, input:focus{
+            border:1px solid #1A94FF;
+        }
+
+
+
+    }
+
+    
+}
